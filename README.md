@@ -1,10 +1,10 @@
-Overview
+# Brute Force Simulator
 
 The Brute Force Simulator is a simple Java application that demonstrates a brute force attack for password guessing. It generates possible password combinations and tests them against a predefined target password.
 
 
 
-Features:
+# Features:
 
 - Simulates password guessing using brute force.
 
@@ -16,7 +16,7 @@ Features:
 
 
 
-How to Run
+# How to Run
 
 Prerequisites:
 
@@ -24,7 +24,7 @@ Prerequisites:
 
 - An IDE or command-line environment.
 
-Compilation:
+# Compilation:
 
 bash
 
@@ -38,7 +38,7 @@ bash
 Copy code
 java BruteForceSimulator
 
-Code Explanation:
+# Code Explanation:
 
 - The bruteForce method recursively generates and tests passwords.
 
@@ -46,13 +46,13 @@ Code Explanation:
 
 - TimeUnit.MILLISECONDS.sleep(100) simulates a delay between attempts.
 
-Customization:
+# Customization:
 
 - Change the PASSWORD variable to modify the target password.
 
 - Adjust maxLength and charset to expand the search space.
 
-Limitations:
+# Limitations:
 
 - Not optimized for long passwords or large character sets.
 
